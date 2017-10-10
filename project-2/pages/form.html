@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Fabulous Chocolate Chip Cookies!"/>
+        <meta name="author" content="Rebekah"/>
+
+        <title>Forms</title>
+    <style>
+        
+        .image-right {
+                float:right;
+                padding-top: 20px;
+                margin-right: 10%;
+            }
+        
+        </style>
+        
+        
+    </head>
+    
+    <body>
+
+        <img class="image-right" src="../images/cookiemonstereatsdough.jpg" alt="Licking the spoon" title="But For Reals, You ate the Dough">
+        
+<!--radio button quiz-->
+<h2>Let's Be Honest</h2>
+      <form action="https://42hartzell.github.io/wed-dev-hw/project-2/upload.php" mehod="post" id="example-form" class="form-class">
+         <p>How much cookie dough did you eat:
+            <br />
+         <input type="radio" name="genre" value="some" /> Some
+            <br />
+         <input type="radio" name="genre" value="none" checked="checked" /> None
+            <br />
+         <input type="radio" name="genre" value="all" /> All
+            <br />
+        </p>
+      </form>
+
+
+
+<!--upload your images area-->
+      <h1>Share Your Cookies!</h1>
+             <form action="https://42hartzell.github.io/wed-dev-hw/project-2/upload.php" method="post" id="upload-form" class="basic-forms">
+               <p> Upload a picture of your cookies!<br /></p>
+               <input type="file" name="user-image" />
+               <br />
+               <br />
+               <input type="submit" value="upload" />
+             </form>
+             <form action="https://42hartzell.github.io/wed-dev-hw/project-2/comment.php" method="post" id="comment-form" class="basic-form">
+               <p>How did they turn out?</p>
+               <textarea name="comments" cols="50" rows="6">Enter comments or suggestions..</textarea>
+             </form>
+             <form action="https://42hartzell.github.io/wed-dev-hw/project-2/rating.php" method="post" id="rate-form" class="basic-form">
+               <p>Rate this dish</p>
+               <select name="ratings">
+                 <option value="not-good">&star;</option>
+                 <option value="okay">&star;&star;</option>
+                 <option value="good">&star;&star;&star;</option>
+                 <option value="really-good">&star;&star;&star;&star;</option>
+                 <option value="excellent">&star;&star;&star;&star;&star;</option>
+               </select>
+             </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--mail/subscribe section-->
+      <form action="https://42hartzell.github.io/wed-dev-hw/project-2/upload.php" method="post" id="example-form" class="form-class">
+         <hr />
+
+         <h2>Subscribe to our Mailing List:</h2>
+
+         <!-- Text Input Box with AUTOFOCUS and a PLACEHOLDER -->
+         <p>
+            E-mail:
+            <input type="text" name="email" placeholder="you@site.com" autofocus/>
+         </p>
+
+         <!-- Textarea Input Box with COLS and ROWS -->
+         <p>What interests you creatively?</p>
+         <textarea name="comments" cols="6" rows="6" style="min-width:100%">
+            My cooking interests are...
+         </textarea>
+
+      </form>
+
+       
+        <ul>
+  <li><a href="./instructions.html">Instructions again?</a></li>
+  <li><a href="../index.html">Back to Home</a></li>
+</ul>
+
+
+
+
+      <!-- Yis ou will add your content inside this BODY element: -->
+    </body>
+</html>
