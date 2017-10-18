@@ -1,3 +1,31 @@
+Read me for hw 03
+I found this weeks homework to be a lot easier.
+I started with drafting up the content that i was going to need, then laying it into place..
+after that i added all of the tags and the styling that was needed, that seemed to work a lot better.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Read me for Hw02
 I struggled a lot with this weeks project. 
 I found tables to be terribly confusing and so antiquiated looking.
