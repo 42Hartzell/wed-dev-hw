@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Achaf';
+    src:
+        url('../fonts/Achafont.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Achaf';
+    src:
+        url('../fonts/Achafita.ttf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Achaf';
+    src:
+        url('../fonts/Achafout.ttf') format('opentype');
+    font-weight: normal;
+    font-style: bold;
+}
+
+
+
+
+
