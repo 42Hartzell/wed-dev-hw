@@ -27,6 +27,21 @@ header{
     font-family: 'Achafont', serif;
     color:#D6503E;
 }
+header a{
+    font-family: 'Achafont', serif;
+    color:#D6503E;
+    text-decoration: none;
+    /*    transitions*/
+    -webkit-transition: all 1s;  				
+-moz-transition: all 1s;  				
+-o-transition: all 1s;  				
+-transition: all 1s;
+}
+header a:hover{
+    color: #3d5747;
+    
+}
+
 nav{
   z-index: 1;
   margin-bottom: -72px; /* nav height */
@@ -41,6 +56,10 @@ nav{
 .navCenter{
     width: 1180px;
     margin: 0 auto;
+}
+
+.navWrapper{
+    height: 100px;
 }
 nav ul {
     display: table;
@@ -62,7 +81,7 @@ nav ul li a {
     font-style: normal;
     text-decoration: none;
 /*    transitions*/
-    -webkit-transition: all .1s;  				
+    -webkit-transition: all 1s;  				
 -moz-transition: all 1s;  				
 -o-transition: all 1s;  				
 -transition: all 1s;
@@ -85,7 +104,6 @@ article{
   position: fixed;
   top: 0; left: 0;
   z-index: 2;
-  
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
@@ -94,3 +112,77 @@ article{
 /*end sticky nav info*/ 
 
 
+
+h1{
+    font-family: 'Vollkorn SC', serif;
+    text-transform: uppercase;
+}
+
+
+h2{
+    font-family: 'Vollkorn SC', serif;
+   
+}
+
+a{
+    color: #3d5747;
+}
+
+
+/*sample page start letter larger and colour change*/
+.bigStart::first-letter{
+    font-size: 250%;
+    font-family: 'Achafexp', serif;
+    color: #D6503E;
+    font-weight: 700;
+    
+    
+}
+
+/*about page authorstyle class*/
+.author{
+    text-align: center;
+}
+
+
+/*contact page style stuff*/
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-size: 15px;    
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #D6503E;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /*    transitions*/
+    -webkit-transition: all .5s;  				
+-moz-transition: all .5s;  				
+-o-transition: all .5s;  				
+-transition: all .5s;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #3d5747;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #35271e;
+    padding: 20px;
+    color: #fff;
+} 
