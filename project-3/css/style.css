@@ -116,17 +116,33 @@ article{
 h1{
     font-family: 'Vollkorn SC', serif;
     text-transform: uppercase;
+    text-align: left;
 }
 
 
 h2{
     font-family: 'Vollkorn SC', serif;
+    text-align: left;
+   
+}
+
+h2{
+    font-family: 'Vollkorn SC', serif;
+    text-align: left;
+    font-size: 14px;
    
 }
 
 a{
     color: #3d5747;
 }
+
+.draculaCover {
+    width: 275px;
+    float: right;
+    padding-left: 40px;
+}
+
 
 
 /*sample page start letter larger and colour change*/
@@ -135,6 +151,8 @@ a{
     font-family: 'Achafexp', serif;
     color: #D6503E;
     font-weight: 700;
+    line-height: 0;
+
     
     
 }
@@ -186,3 +204,18 @@ input[type=submit]:hover {
     padding: 20px;
     color: #fff;
 } 
+
+
+/*style blockquote*/
+blockquote{
+    font-style: italic;
+   font-size: 18px;
+}
+
+
+.cite{
+    font-size: 40px;
+    text-align: right;
+    font-family: 'Achafexp', serif;
+    
+}
