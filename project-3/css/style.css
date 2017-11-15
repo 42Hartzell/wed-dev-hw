@@ -69,7 +69,7 @@ nav ul {
 nav ul li{
     float: left;
     list-style: none;
-    padding: 0 10px;
+    padding: 0 30px;
     
 }
 
@@ -177,7 +177,7 @@ input[type=text], select, textarea {
     font-size: 15px;    
 }
 
-/* Style the submit button with a specific background color etc */
+/* Style the submit button with a specific background color */
 input[type=submit] {
     background-color: #D6503E;
     color: white;
@@ -192,7 +192,7 @@ input[type=submit] {
 -transition: all .5s;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button */
 input[type=submit]:hover {
     background-color: #3d5747;
 }
@@ -219,3 +219,77 @@ blockquote{
     font-family: 'Achafexp', serif;
     
 }
+
+
+
+
+
+
+/*attempt at a side bar boxy thingy */
+
+
+/*end side bar box thingy */
+
+
+
+
+/*dropdown thingy*/
+
+/* Set the layout of the menu: */
+.menu-item {
+    display: inline-block;
+    margin: 0 0;
+    min-width: 8em;
+    text-align: center;
+    background-color: #26272b;
+    padding: 0.5em 0;
+}
+
+/* Style the links: */
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu-item:hover {
+    background-color: #1CCDCA;
+}
+
+/* Add a dropdown feature: */
+.dropdown {
+    display: inline-block;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border: 1px solid #000;
+    margin: 0;
+    color: #000;
+    background-color: #191b13;
+    z-index: 1;
+    box-shadow: 5px 5px 5px #000;
+   
+}
+.dropdown-content a {
+    color: #fff;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.2em;
+    min-width: 3em;
+    
+}
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: #D6503E;
+/*    background-color: #a2a2a2;*/
+}
+
+/* END dropdown thingy*/

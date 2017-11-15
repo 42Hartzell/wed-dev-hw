@@ -38,3 +38,14 @@ it took me some time to get everything set up the way i wanted to look but then 
 
 
 
+HW 6
+
+the last thing to do was to create a drop down menu. 
+I already had a horizontal menu on the top so i added it to the middle of the nav bar and had it drop down from "novel" adding attributes to click on such as a vampire podcast, reviews and way to purchase the book...trying to keep it clean and minimal still. in the drop down i kept with the same colour theme making the words turn red when you click on them and had the colours fade in as well to be easier on the eye for the user.
+
+
+In firefox it adds a border to visited links that are not apart of my design and i hate. i tried to get the border to go away but was not able to. It doesn't add the border in other browsers.
+
+I learned how tedious and valuable testing is. It became kind of overwhelming to test EVERY link on each page....i can see how on bigger sites this could become soooo confising and a nightmare becasue i became conused on this dinky site!
+
+all and all i am enjoying the process more now that we are "decorating" with coding.
