@@ -6,3 +6,5 @@ I wrote the content up and then there are links that give a deeper look onto the
 I found a colour pallet that I liked and thought was fun to implement
 I did sketch something up but felt it was kind of silly for such a small page
 It had the four columns for the phone size then the header and footer with two boxes in the middle 
+
+! [img](https://github.com/42Hartzell/wed-dev-hw/blob/master/sketch.JPG)
